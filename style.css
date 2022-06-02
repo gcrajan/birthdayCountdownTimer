@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background:url(https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #403939;
+}
+/* //////////////////////////////////// */
+#input{
+  position: absolute;
+  top: 15%;
+}
+.login{
+  font-size: 1.5rem;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 10rem;
+  margin-right: 1rem;
+}
+.btn{
+  background: none;
+  font-size: 1.5rem;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 2rem;
+  padding: 0.1rem 1rem;
+}
+/* //////////////////////////////// */
+#countdownDiv{
+  position: absolute;
+  top: 20%;
+}
+
+/* //////// show/hide////// */
+.hide{
+  display: none;
+}
+/* //////// show/hide////// */
+
+.countdownContainer {
+  display: flex;
+}
+.text {
+  font-size: 7rem;
+  margin: 0 2rem;
+  color: #302f2d;
+}
+.dateText {
+  margin: 0px 36px;
+  font-size: 1.3rem;
+}
+#countdownTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#countdownTime video {
+  height: 25%;
+  width: 25%;
+}
